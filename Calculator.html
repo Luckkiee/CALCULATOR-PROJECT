@@ -1,0 +1,33 @@
+  <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Calculator.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="Calculator.js"></script>
+    <div class="calculator" aria-readonly="true">
+      <input type="text" class="calculator-display" />
+      <button class="number-button" onclick="inputToDisplay('7')">7</button>
+      <button class="number-button" onclick="inputToDisplay('8')">8</button>
+      <button class="number-button" onclick="inputToDisplay('9')">9</button>
+      <button class="operator-button" onclick="inputToDisplay('/')">/</button>
+      <button class="number-button" onclick="inputToDisplay('4')">4</button>
+      <button class="number-button" onclick="inputToDisplay('5')">5</button>
+      <button class="number-button" onclick="inputToDisplay('6')">6</button>
+      <button class="operator-button" onclick="inputToDisplay('*')">x</button>
+      <button class="number-button" onclick="inputToDisplay('1')">1</button>
+      <button class="number-button" onclick="inputToDisplay('2')">2</button>
+      <button class="operator-button" onclick="inputToDisplay('3')">3</button>
+      <button class="operator-button" onclick="inputToDisplay('-')">-</button>
+      <button class="operator-button" onclick="deleteAll()">AC</button>
+      <button class="operator-button" onclick="inputToDisplay('0')">0</button>
+      <button class="calculate-button operator-button" onclick="calculate()">
+        =
+      </button>
+      <button class="operator-button" onclick="inputToDisplay('+')">+</button>
+    </div>
+  </body>
+</html>
